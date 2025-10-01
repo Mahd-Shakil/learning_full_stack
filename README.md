@@ -1,16 +1,20 @@
-# React + Vite
+# My First Full Stack Project
+I watched a youtube course to help me make this project. It is my first full stack projet.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Link to project:** Coming Soon!
 
-Currently, two official plugins are available:
+![Demo pic](demo_pic.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How It's Made:
 
-## React Compiler
+**Tech used:** HTML, CSS, JavaScript, React, Tailwind CSS, API Implementation, Appwrite Database
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I used React as the main framework for this project. I used an API called The Movie Database to get all the information about every movie. It is a very extensive database with a lot of movies and a lot of information about each movie. I also used Appwrite to host a database that tracks what people are searching on my website. This allows me to display the top 5 most trending searches.
 
-## Expanding the ESLint configuration
+## Optimizations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+For the search bar, I used a feature called debouncing. This feature makes it so that the API is not being called every single time the search item is modified. Debouncing waits 500ms until after the user has stopped typing to actually make the API call. This makes the searching feature visually and technically smoother and more optimized.
+
+## Lessons Learned:
+
+Because this was my first full stack project I learned a lot. My experience prior to starting this project was very surface level. I knew html, css, and javascript but this was my first time using a framework such as React. I learned how Tailwind CSS works which helps streamline the development process a lot. Although I have learned about databases and have used SQL before, this was my first time implementing a database into a web app. Overall this project was an amazing learning experience!
